@@ -1,0 +1,11 @@
+parameters:
+
+    passport.handler.constructor: conga-passport:passport-handler
+
+services:
+
+    passport.handler:
+        constructor: "%passport.handler.constructor%"
+        tags:
+            - { name: app.middleware, method: onAddMiddleware }
+            - { name: kernel.event, event: kernel.server_boot, method: onServerBoot, priority: 8 }

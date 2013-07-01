@@ -1,0 +1,29 @@
+{
+  "name": "conga-passport",
+  "version": "0.0.1",
+  "description": "Conga.js bundle which adds Passport to a project",
+  "directories": {
+    "test": "test"
+  },
+  "main": "",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/congajs/conga-passport.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Marc Roulias",
+  "license": "MIT",
+  "dependencies": {
+    "passport": "0.1.17",
+    "passport.socketio": "1.2.1"
+  },
+  "devDependencies": {
+
+  },
+  "readmeFilename": "README.md"
+}
